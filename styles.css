@@ -1,0 +1,61 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    color: #424121; 
+    line-height: 1.6;
+}
+
+body {
+    background-color: #f2ead5; 
+}
+
+.header, .footer {
+    background-color: #d3c98b; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content {
+    max-width: 1200px; 
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.poems-container {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.poem-card {
+    border: 1px solid #ddd;
+    padding: 20px; 
+    background-color: #f5b6a7; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.poem-card h2 {
+    font-size: 30px;
+    color: #a7a155; 
+    margin-bottom: 10px;
+}
+
+.poem-card h3 {
+    font-size: 18px;
+    color: #9b594e; 
+    margin-bottom: 10px;
+}
+
+.poem-content {
+    max-height: 150px; 
+    overflow-y: auto; 
+}
+
+.footer {
+    background-color: #d3c98b; 
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
